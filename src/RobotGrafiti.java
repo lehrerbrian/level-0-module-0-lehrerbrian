@@ -9,7 +9,7 @@ public class RobotGrafiti {
 	    	// 1. Make a new Robot
 	Robot r = new Robot();
 	r.penDown();
-	r.setSpeed(10);
+	r.setSpeed(100);
 	r.setPenWidth(10);
 		for (int i = 0; i < 230.; i++) {
 			r.move(1);
